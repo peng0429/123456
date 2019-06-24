@@ -1,0 +1,77 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #3a58df;
+}
+a[target="_blank"]{
+    font-size: 0
+}
+.content{
+    padding: 0 20px;
+    min-height: 100vh;
+    background: url(../assets/newBack.png) no-repeat;
+    box-sizing: border-box;
+    background-size: 100%;
+    padding-top: 100%;
+}
+.content>div{
+    border-radius: 25px;
+    padding: 11px 20px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #333;
+}
+input{
+    border: 0;
+    height: 100%;
+    outline: none;
+    width: 100%; 
+}
+.but{
+    text-align: center;
+    background: #FFFD55 !important;
+    color: #FF3353 !important;
+    font-weight: 900;
+}
+.codeBut{
+    color: #FF4F6B;
+    font-size: 15px;
+    float: right;
+}
+#tiaoxiazai{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+.yindao{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    overflow: scroll;
+    background-color: rgb(101, 98, 98);
+    display: none;
+    text-align: center;
+}
+@media ( max-width : 350px){
+    .content>div{
+        padding: 9px 20px 8px;
+    }
+    #tiaoxiazai{
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+}
+@media ( max-width : 380px){
+    .content>div{
+        padding: 9px 20px 8px;
+    }
+    #tiaoxiazai{
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+}

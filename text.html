@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .top{
+        width: 80%;
+        height: 40vh;
+        margin: 0 auto;
+        background: url(assets/zhuanpan.png) no-repeat;
+        box-sizing: border-box;
+        background-size: 100%; 
+        margin-top: 10vh;
+        text-align: center;
+        padding-top: 9vh;
+        color: #FF5865;
+    }
+    .button{
+        width: 80%;
+        height: 60px;
+        background: linear-gradient(135deg,rgba(255,131,146,1) 0%,rgba(255,88,101,1) 100%);
+        border-radius: 50px;
+        text-align: center;
+        line-height: 60px;
+        margin: 0 auto;
+        color: #fff;
+        margin-top: 25px;
+    }
+    .text{
+        color: #999999;
+        text-align: center;
+        margin-top: 17px;
+    }
+</style>
+<body>
+    <div class="top">
+        <p style="font-size: 16px;">最高可借金额(元)</p>
+        <p style="font-size: 40px;margin-top: 10px;">500</p>
+    </div>
+    <div class="text">好借好还,再借不难s</div>
+    <div class="button">
+        立即借款
+    </div>
+    <!-- <img src="assets/zhuanpan.png" alt=""> -->
+</body>
+</html>
+<script src="js/jquery.min.js"></script>
+<script>
+    jQuery(function(){
+        $(".button").click(function(){
+            window.location.href="home.html"
+        })
+    })
+</script>
